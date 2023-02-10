@@ -1,23 +1,23 @@
-### Star Wars API Database
+# Star Wars API Database
 
 
-**Introduction**
+## Introduction
 
 This project is designed to store Star Wars data from SWAPI. This project uses the Python programming language and the PyMongo library to connect to a MongoDB database. The database contains information about characters and starships from the Star Wars universe. 
 
 
-**Data Structure**
+## Data Structure
 
 The database consists of two collections:
 
-> characters: 
-This collection contains information about Star Wars characters, such as their name, height, mass, hair_color, eye_color, birth year, gender, homeworld, films and species.
+- characters: 
+> This collection contains information about Star Wars characters, such as their name, height, mass, hair_color, eye_color, birth year, gender, homeworld, films and species.
 
-> starships: 
-- This collection contains information about Star Wars starships, such as their name, model, manufacturer, cost_in_credits, length, max_atmosphering_speed, crew, passengers, cargo_capacity, consumables, hyperdrive_rating, MGLT, starship_class, films, created and edited date, url and the IDs of their pilots.
+- starships: 
+> This collection contains information about Star Wars starships, such as their name, model, manufacturer, cost_in_credits, length, max_atmosphering_speed, crew, passengers, cargo_capacity, consumables, hyperdrive_rating, MGLT, starship_class, films, created and edited date, url and the IDs of their pilots.
 
 
-**Code**
+## Code
 
 The code uses the ***PyMongo*** library to connect to a ***MongoDB*** database, and the ***Requests*** library to retrieve data from the SWAPI. The starships.py file contains the following functions:
 
