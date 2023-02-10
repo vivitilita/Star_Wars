@@ -17,7 +17,7 @@ The database consists of two collections:
 
 **Code**
 
-The code uses the ***PyMongo*** library to connect to a ***MongoDB*** database, and the ***Requests*** library to retrieve data from the SWAPI. The main.py file contains the following functions:
+The code uses the ***PyMongo*** library to connect to a ***MongoDB*** database, and the ***Requests*** library to retrieve data from the SWAPI. The starships.py file contains the following functions:
 
 - get_data(url): 
   >This function takes a URL and returns the JSON data from the API.
